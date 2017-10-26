@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1509001201 source:d:\codebolcks\sdl\main.cpp
+	<iostream>
+	<stdio.h>
+	<conio.h>
+	<dos.h>
+	<windows.h>
+	<mmsystem.h>
+
