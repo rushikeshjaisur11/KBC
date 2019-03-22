@@ -8,11 +8,11 @@ using namespace std;
 int flag=0,top=0;
 main(void)
 {
-
+    //program starts from here
     int ans1,ans2,ans3,ans4,ans5,ans6,ans7,ans8,ans9,ans10,ans11,ans12,ans13,ans14,ans15,p,S,l,w,c,x,y,J,O,U,k;
  char n[30],P[30],q,opt,b[10];
  //PlaySound("kbc.wav",SND_SYNC,NULL);
- cout<<"                           KAUN BANEGA CROREPATI\a\a\a\a\a\a\a";
+ cout<<"                           KAUN BANEGA CROREPATI\a\a\a\a\a\a\a"; //prints headline
  cout<<"\n                           *********************";
    printf("\n\n      WE WANT SOME INFORMATION ABOUT YOU BEFORE PLAYING KBC");
     cout<<"\n\n\a NAME : ";
@@ -95,7 +95,7 @@ if(ans2==2)
     printf("(2) WEST INDIES\n");
     printf("(3) AUSTRALIA\t");
     printf("(4) ENGLAND\n");
-    cin>>ans3;
+    cin>>ans3; // gets answers
     switch(ans3)
      {
        case 1 :
